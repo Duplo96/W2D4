@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto", sans-serif;
+  margin-inline: 10%;
+  color: rgb(122, 122, 122);
+}
+h2 {
+  color: black;
+}
+.container {
+  padding-block: 2%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo img {
+  width: 30%;
+  align-self: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.resume {
+  border: solid 2px #f2f2f2;
+  border-radius: 20px;
+  padding: 10px;
+}
+.profile {
+  padding: 8px 8px;
+  background-color: red;
+  font-size: 15pt;
+  border-radius: 50%;
+  color: white;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+}
+ion-icon {
+  font-size: 16pt;
+  color: rgb(149, 149, 149);
+}
+
+.pagina {
+  display: flex;
+}
+.colonna-destra {
+  width: 30%;
+  height: 80vh;
+}
+.colonna-sinistra {
+  width: 70%;
+  height: 80vh;
+  border-right: 1px solid lightgray
+}
+.following {
+  border-bottom: 1px solid lightgray;
+  margin-block: 30px;
+  margin-right: 40px;
+
+}
+.recommended {
+  margin-bottom: 0;
+  margin-left: 5%;
+  font-weight: bold;
+  border-bottom: 3px solid black
+}
+.immagini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter {
+  width: 40px;
+}
+.medium {
+  width: 100px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.testata img{
+  width: 5%;
+}
+.testata{
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+.notizia{
+  display: flex;
+}
+.sottomenu{ display: flex;
+  margin-bottom: 10%;
+}
+.button{
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  padding-inline: 4px;
+}
+.icon{display: flex;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
