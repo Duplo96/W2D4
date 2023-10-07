@@ -2,13 +2,15 @@
 
 body {
   text-rendering: optimizeLegibility;
-  font-family: "Roboto", sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-inline: 10%;
+  margin-block: 0;
   /* color: rgb(122, 122, 122); */
 }
 h2 {
   color: black;
 }
+
 .container {
   padding-block: 2%;
   display: flex;
@@ -51,9 +53,12 @@ ion-icon {
 .colonna-destra,
 .colonna-sinistra {
   padding-top: 20px;
+  display: flex;
+    flex-direction: column;
 }
 .colonna-destra {
   width: 30%;
+  margin-inline: 5%;
 }
 .colonna-sinistra {
   width: 70%;
@@ -89,7 +94,7 @@ ion-icon {
   margin-right: 100px;
 }
 .testata img {
-  width: 3%;
+  width: 20px;
 }
 .testata {
   display: flex;
@@ -100,12 +105,14 @@ ion-icon {
 .notizia {
   display: flex;
   padding-bottom: 10px;
+  justify-content: space-between;
 }
 .sottomenu {
   display: flex;
   margin-top: 30px;
   font-size: small;
   gap: 10px;
+  align-items: center;  
 }
 .button {
   background-color: #f2f2f2;
@@ -138,8 +145,12 @@ ion-icon {
 #container2 {
   display: flex;
   flex-direction: column;
-  margin-inline: 15%;
+  padding-inline: 15%;
+  margin-inline: 8%;
   gap: 20px;
+  align-items: center;
+  
+  padding-bottom: 10%;
 }
 .connect {
   display: flex;
@@ -154,4 +165,55 @@ ion-icon {
     border-radius: 50px;
     padding: 10px;
     gap: 10px;
+}
+a{
+  color: rgb(122, 122, 122);
+}
+.container3{
+  display: flex;
+  border-top: 1px solid lightgray;
+ padding-top: 20px;
+ margin-bottom: 20px;
+ flex-direction: column;
+}
+.topics{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block: 8%;
+}
+.topic{
+  padding: 10px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 300px;
+}
+.utenti{
+  display: flex;
+  margin-top: 8px;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.name{
+  margin: 0;
+}
+.profession{
+  display: flex;
+  gap: 20px;
+    padding-top: 5px;
+    color: rgb(122, 122, 122);
+}
+.follow{
+
+  border: solid 1px black;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.gray{
+  color: lightgray;
+}.bold{
+  font-weight: bold;
 }
