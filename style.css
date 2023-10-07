@@ -4,7 +4,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: "Roboto", sans-serif;
   margin-inline: 10%;
-  color: rgb(122, 122, 122);
+  /* color: rgb(122, 122, 122); */
 }
 h2 {
   color: black;
@@ -13,7 +13,6 @@ h2 {
   padding-block: 2%;
   display: flex;
   justify-content: space-between;
-
 }
 .logo img {
   width: 30%;
@@ -43,69 +42,106 @@ ion-icon {
   font-size: 16pt;
   color: rgb(149, 149, 149);
 }
-
+.bold {
+  font-weight: bold;
+}
 .pagina {
   display: flex;
+  
+}
+.colonna-destra,.colonna-sinistra{
+  padding-top: 20px;
 }
 .colonna-destra {
+  display: flex;
   width: 30%;
-  height: 80vh;
+  flex-direction: column;
 }
 .colonna-sinistra {
   width: 70%;
-  height: 80vh;
-  border-right: 1px solid lightgray
+  border-right: 1px solid lightgray;
 }
 .following {
   border-bottom: 1px solid lightgray;
   margin-block: 30px;
   margin-right: 40px;
-
 }
 .recommended {
   margin-bottom: 0;
   margin-left: 5%;
   font-weight: bold;
-  border-bottom: 3px solid black
+  border-bottom: 3px solid black;
 }
 .immagini {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
-.twitter {
-  width: 40px;
+.twitter,  .button-twitter img{
+  width: 6%;
 }
 .medium {
   width: 100px;
   object-fit: cover;
   overflow: hidden;
 }
-
-.testata img{
-  width: 5%;
+.card {
+  margin-block: 60px;
+  margin-right: 100px;
 }
-.testata{
+.testata img {
+  width: 3%;
+}
+.testata {
   display: flex;
   align-items: center;
   color: black;
-  font-weight: bold;
+  flex-wrap: wrap;
 }
-.notizia{
+.notizia {
   display: flex;
+  padding-bottom: 10px;
 }
-.sottomenu{ display: flex;
-  margin-bottom: 10%;
+.sottomenu {
+  display: flex;
+  margin-top: 30px;
+  font-size: small;
+  gap: 10px;
 }
-.button{
+.button {
   background-color: #f2f2f2;
   border-radius: 30px;
   padding-inline: 4px;
+  color: black;
+  display: flex;
+  align-items: center;
 }
-.icon{display: flex;
+ .icon { 
+  display: flex;
+  color: black;
+  cursor: pointer;
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  padding-top: 5px;
+  color: rgb(122, 122, 122);
+}
+.preview {
+  display: flex;
+}
+.preview img {
+  width: 280px;
+  height: 200px;
+}
+
+#container2{
+  display: flex;
+  flex-direction: column;
+  margin-inline: 15%;
+}
+.connect{
+  display: flex;
+  flex-direction: column;
 }
