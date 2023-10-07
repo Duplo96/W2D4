@@ -47,9 +47,9 @@ ion-icon {
 }
 .pagina {
   display: flex;
-  
 }
-.colonna-destra,.colonna-sinistra{
+.colonna-destra,
+.colonna-sinistra {
   padding-top: 20px;
 }
 .colonna-destra {
@@ -76,9 +76,9 @@ ion-icon {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.twitter,  .button-twitter img{
+.twitter,
+.button-twitter img {
   width: 6%;
 }
 .medium {
@@ -117,7 +117,7 @@ ion-icon {
   display: flex;
   align-items: center;
 }
- .icon { 
+.icon {
   display: flex;
   color: black;
   cursor: pointer;
@@ -130,18 +130,19 @@ ion-icon {
 }
 .preview {
   display: flex;
+  margin-left: 30px;
 }
 .preview img {
   width: 280px;
   height: 200px;
 }
 
-#container2{
+#container2 {
   display: flex;
   flex-direction: column;
   margin-inline: 15%;
 }
-.connect{
+.connect {
   display: flex;
   flex-direction: column;
 }
