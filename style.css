@@ -1,35 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 body {
-  text-rendering: optimizeLegibility;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-inline: 10%;
-  margin-block: 0;
-  /* color: rgb(122, 122, 122); */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
+
 h2 {
   color: black;
 }
 
 .container {
-  padding-block: 2%;
+  padding: 1% 10%;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
 }
+
 .logo img {
   width: 30%;
   align-self: center;
 }
+
 .navbar {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .resume {
-  border: solid 2px #f2f2f2;
-  border-radius: 20px;
-  padding: 10px;
+  display: flex;
+  border: solid 1px rgb(122, 122, 122);
+  border-radius: 50px;
+  width: 19vh;
+  height: 3.5vh;
+  justify-content: center;
+  align-items: center;
 }
+
 .profile {
   padding: 8px 8px;
   background-color: red;
@@ -40,73 +46,93 @@ h2 {
   height: 23px;
   text-align: center;
 }
+
 ion-icon {
   font-size: 16pt;
-  color: rgb(149, 149, 149);
+  color: rgb(122, 122, 122);
 }
+
 .bold {
   font-weight: bold;
 }
+
 .pagina {
   display: flex;
+  margin: 0 10%;
 }
+
 .colonna-destra,
 .colonna-sinistra {
   padding-top: 20px;
   display: flex;
   flex-direction: column;
 }
+
 .colonna-destra {
   width: 30%;
   margin-inline: 5%;
+  position: sticky;
+  top: 0;
+  max-height: 200vh;
+  overflow: hidden;
 }
+
 .colonna-sinistra {
   width: 70%;
   border-right: 1px solid lightgray;
 }
+
 .following {
   border-bottom: 1px solid lightgray;
   margin-block: 30px;
   margin-right: 40px;
 }
+
 .recommended {
   margin-bottom: 0;
   margin-left: 5%;
   font-weight: bold;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(122, 122, 122);
 }
+
 .immagini {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .twitter,
 .button-twitter img {
   width: 10%;
 }
-.medium {
-  width: 100px;
+.immagini img {
+  width: 30px;
   object-fit: cover;
   overflow: hidden;
 }
+
 .card {
   margin-block: 60px;
   margin-right: 100px;
 }
+
 .testata img {
   width: 20px;
 }
+
 .testata {
   display: flex;
   align-items: center;
   color: black;
   flex-wrap: wrap;
 }
+
 .notizia {
   display: flex;
   padding-bottom: 10px;
   justify-content: space-between;
 }
+
 .sottomenu {
   display: flex;
   margin-top: 30px;
@@ -114,6 +140,7 @@ ion-icon {
   gap: 10px;
   align-items: center;
 }
+
 .button {
   background-color: #f2f2f2;
   border-radius: 30px;
@@ -122,21 +149,25 @@ ion-icon {
   display: flex;
   align-items: center;
 }
+
 .icon {
   display: flex;
   color: black;
   cursor: pointer;
 }
+
 .text {
   display: flex;
   flex-direction: column;
   padding-top: 5px;
   color: rgb(122, 122, 122);
 }
+
 .preview {
   display: flex;
   margin-left: 30px;
 }
+
 .preview img {
   width: 280px;
   height: 200px;
@@ -148,15 +179,17 @@ ion-icon {
   margin-inline: 8%;
   gap: 20px;
   align-items: center;
-
   padding-bottom: 10%;
 }
+
 .connect {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 .button-twitter {
+  width: 22vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,9 +198,11 @@ ion-icon {
   padding: 10px;
   gap: 10px;
 }
+
 a {
   color: rgb(122, 122, 122);
 }
+
 .container3 {
   display: flex;
   border-top: 1px solid lightgray;
@@ -175,54 +210,78 @@ a {
   margin-bottom: 20px;
   flex-direction: column;
 }
+
 .topics {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-block: 8%;
 }
+
 .topic {
   padding: 10px;
   background-color: rgb(242, 242, 242);
   border-radius: 300px;
 }
+
 .utenti {
   display: flex;
   margin-top: 8px;
   flex-direction: column;
 }
+
 .cards {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .name {
   margin: 0;
 }
+
 .profession {
   display: flex;
   gap: 20px;
   padding-top: 5px;
   color: rgb(122, 122, 122);
 }
+
 .follow {
   border: solid 1px black;
   border-radius: 30px;
   padding: 10px 20px;
 }
+
 .gray {
   color: lightgray;
 }
+
 .bold {
   font-weight: bold;
 }
-.titolo{
+
+.titolo {
   margin-bottom: 0.83em;
 }
-.data{
+
+.data {
   display: flex;
-  align-items: center;margin-bottom: 10%
+  align-items: center;
+  margin-bottom: 10%;
 }
-ul{
+
+ul {
   margin: 0;
+}
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+  color: rgb(116, 117, 117);
+  cursor: pointer;
+}
+.container4 {
+  margin-bottom: 25%;
 }
