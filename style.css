@@ -64,10 +64,12 @@ ion-icon {
 .colonna-sinistra {
   padding-top: 20px;
 }
+
 .column {
   display: flex;
   flex-direction: column;
 }
+
 .colonna-destra {
   width: 30%;
   margin-inline: 5%;
@@ -231,10 +233,6 @@ a {
   gap: 20px;
 }
 
-.name {
-  margin: 0;
-}
-
 .profession {
   display: flex;
   gap: 20px;
@@ -248,8 +246,8 @@ a {
   padding: 10px 20px;
 }
 
-.gray {
-  color: lightgray;
+.container4 {
+  margin-bottom: 25%;
 }
 
 .bold {
@@ -272,11 +270,7 @@ ul {
 .help {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   gap: 10px 20px;
   color: rgb(116, 117, 117);
   cursor: pointer;
-}
-.container4 {
-  margin-bottom: 25%;
 }
