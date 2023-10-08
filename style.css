@@ -145,7 +145,6 @@ ion-icon {
 #container2 {
   display: flex;
   flex-direction: column;
-  padding-inline: 15%;
   margin-inline: 8%;
   gap: 20px;
   align-items: center;
@@ -216,4 +215,14 @@ a {
 }
 .bold {
   font-weight: bold;
+}
+.titolo{
+  margin-bottom: 0.83em;
+}
+.data{
+  display: flex;
+  align-items: center;margin-bottom: 10%
+}
+ul{
+  margin: 0;
 }
