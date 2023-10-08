@@ -64,10 +64,11 @@ ion-icon {
 .colonna-destra,
 .colonna-sinistra {
   padding-top: 20px;
+}
+.column {
   display: flex;
   flex-direction: column;
 }
-
 .colonna-destra {
   width: 30%;
   margin-inline: 5%;
@@ -84,15 +85,21 @@ ion-icon {
 
 .following {
   border-bottom: 1px solid lightgray;
-  margin-block: 30px;
-  margin-right: 40px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  gap: 20px;
+  color: rgb(122, 122, 122);
 }
 
 .recommended {
-  margin-bottom: 0;
-  margin-left: 5%;
   font-weight: bold;
-  border-bottom: 3px solid rgb(122, 122, 122);
+  transition: color 0.3s ease;
+}
+
+.recommended:hover {
+  color: black;
 }
 
 .immagini {
@@ -157,15 +164,12 @@ ion-icon {
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
   padding-top: 5px;
   color: rgb(122, 122, 122);
 }
 
 .preview {
   display: flex;
-  margin-left: 30px;
 }
 
 .preview img {
@@ -173,9 +177,7 @@ ion-icon {
   height: 200px;
 }
 
-#container2 {
-  display: flex;
-  flex-direction: column;
+.container2 {
   margin-inline: 8%;
   gap: 20px;
   align-items: center;
@@ -183,8 +185,6 @@ ion-icon {
 }
 
 .connect {
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -204,11 +204,9 @@ a {
 }
 
 .container3 {
-  display: flex;
   border-top: 1px solid lightgray;
   padding-top: 20px;
   margin-bottom: 20px;
-  flex-direction: column;
 }
 
 .topics {
@@ -219,15 +217,13 @@ a {
 }
 
 .topic {
-  padding: 10px;
+  padding: 10px 20px;
   background-color: rgb(242, 242, 242);
   border-radius: 300px;
 }
 
 .utenti {
-  display: flex;
   margin-top: 8px;
-  flex-direction: column;
 }
 
 .cards {
@@ -278,7 +274,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 10px 20px;
   color: rgb(116, 117, 117);
   cursor: pointer;
 }
