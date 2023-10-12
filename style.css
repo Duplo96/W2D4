@@ -102,7 +102,7 @@ ion-icon {
 
 .recommended:hover {
   color: black;
-}
+/* border-bottom: 3px solid black;} */}
 
 .immagini {
   display: flex;
